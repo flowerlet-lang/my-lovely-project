@@ -1,0 +1,75 @@
+header{
+ display: flex;
+ justify-content: space-between;
+ background-image: url(./IMG_6511.webp);
+ background-repeat: no-repeat;
+  background-size: cover;
+ height: 20vh;
+ 
+ color:black;
+ list-style: none;
+     
+}
+header nav
+ {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;}
+  header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    color: black;
+
+  }
+  footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: end;
+  }
+  footer nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;} 
+  footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+
+  }
+  form label{
+    margin-top: 10px;
+
+  } 
+  form input ,form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+  } 
+  form button{
+    margin-top: 15px;
+padding: 10px;
+background: #444;
+color: white;
+border: none;
+cursor: pointer;
+
+  }
+  form button:hover{
+    background: #333;
+  } 
+  

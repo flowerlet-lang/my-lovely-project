@@ -1,0 +1,166 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.btn-element {
+  background-color:  lightblue;
+  color: black;
+  padding: 13px 17px;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.3s ease;
+
+}
+.btn-element:hover{
+  background-color: blue;
+}
+body{}
+
+header{
+ display: flex;
+ justify-content: space-between;
+ background-image: url(./IMG_6511.webp);
+ background-repeat: no-repeat;
+  background-size: cover;
+ height: 20vh;
+ 
+ color:black;
+ list-style: none;
+     
+}
+
+header nav
+ {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;}
+  header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+
+  }
+  footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: end;
+  }
+  footer nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;} 
+  footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+  }  
+  
+header h1{
+  font-style: italic;
+  font-size: 90px;
+  text-decoration: wavy;
+  text-shadow: 10px;
+}
+.About {
+  display: flex;
+  align-items: center;
+  padding: 200px 20px;
+text-align: center;
+  background-image: url(./stitch-please.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+back
+  
+.About > div {
+  flex: 1;
+  gap: 30PX;
+  
+}
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;}
+h1 {
+  font-size: 70px;
+}
+.About P{
+  
+  font-style: italic;
+  font-size: 40PX;
+  z-index: 1;
+}
+.About h2{
+  
+color: white;
+font-size: 70px;
+font-style: italic;
+z-index: 1;
+}
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;}
+   
+.Inspiration{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px;
+}
+
+
+.Inspiration img{
+    width: 700PX;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.Inspiration P{
+font-style: italic;
+font-size: 30px;
+color: blueviolet;
+}
+.Inspiration h2{
+  font-style: italic;
+  font-size: 70px;
+  color: indigo;
+}
+.Inspiration a{
+  color: indigo;
+}
+.ideas ul{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 0, 0, 30%;
+  background: white;
+  padding:20px ;
+  text-align: center;
+  box-sizing: border-box;
+}
+.ideas h2{
+  font-style: italic;
+  font-size: 70px;
+  color: black;
+}
+
+  

@@ -1,0 +1,88 @@
+header{
+ display: flex;
+ justify-content: space-between;
+ background-image: url(./IMG_6511.webp);
+ background-repeat: no-repeat;
+  background-size: cover;
+ height: 20vh;
+ 
+ color:black;
+ list-style: none;
+     
+}
+header nav
+ {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;}
+  header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    color: black;
+
+  }
+  footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: end;
+  }
+  footer nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;} 
+  footer ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+  }  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #333;
+    text-align: center;
+  }
+  .services{
+    padding: 2rem 1rem;
+  }
+  .services h1{
+    font-size: 50px;
+  }
+  .card{
+    background-color: #f7f7f7;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    max-width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  .card:hover{
+    transform: translateY(-5PX);
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+
+  }
+  .card h2{
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: #1d3c1d;
+  }
+  .card p{
+    color: #666;
+    font-size: 1rem;
+  }
