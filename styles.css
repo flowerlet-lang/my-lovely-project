@@ -1,3 +1,16 @@
+*{
+  box-sizing:border-box ;
+margin: 0;
+padding: 0;
+}
+body{
+  font-family: Ariel, sans-serif;
+  line-height: 1.6;
+}
+
+
+
+
 a {
   color: inherit;
   text-decoration: none;
@@ -190,4 +203,35 @@ color: blueviolet;
     transform: translate(0);
   }
 }
+@media (max-width:768px){
+header, footer {
+  flex-direction: column;
+text-align: center;
+
+}
+header nav, footer nav{
+  flex-direction: column;
+  gap: 10px;
+}
+  
+}
+.btn-element{
+  width: 100%;
+}
+.Inspiration{
+  flex-direction: column;
+}
+.About h2, .Inspiration h2, .ideas h2{
+  font-size: 2rem;
+}
+.About p , .Inspiration p{
+  font-size: 1rem;
+  padding: 0 10px;
+
+}
+header h1{
+  font-size: 2rem;
+}
+
+
   
