@@ -92,3 +92,14 @@ header nav
     color: #666;
     font-size: 1rem;
   }
+  @media (max-width:768px){
+header, footer {
+  flex-direction: column;
+text-align: center;
+
+}
+header nav, footer nav{
+  flex-direction: column;
+  gap: 10px;
+}
+  }

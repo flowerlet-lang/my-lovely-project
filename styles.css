@@ -68,10 +68,13 @@ header nav
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 60px;} 
+  padding: 10px 60px;
+
+
+} 
   footer ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 30px;
     list-style: none;
   }  
@@ -216,7 +219,8 @@ header nav, footer nav{
   
 }
 .btn-element{
-  width: 100%;
+  width: 30%;
+  padding: 5px;
 }
 .Inspiration{
   flex-direction: column;
